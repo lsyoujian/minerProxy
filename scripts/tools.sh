@@ -32,7 +32,7 @@ install() {
         wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v4.0.0T9/minerProxy_v4.0.0T9_linux_amd64 -O /root/miner_proxy/minerProxy
         ;;
     2)
-        wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v5.1.1/minerProxy_v5.1.1_linux_amd64 -O /root/miner_proxy/minerProxy
+        wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v5.0.2/minerProxy_v5.0.2_beta_linux_amd64 -O /root/miner_proxy/minerProxy
         ;;
     3)
         wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v5.1.1/minerProxy_v5.1.1_linux_arm64 -O /root/miner_proxy/minerProxy
