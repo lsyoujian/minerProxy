@@ -29,7 +29,7 @@ install() {
     read -p "$(echo -e "请输入[1-3]：")" choose
     case $choose in
     1)
-        wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v5.0.2/minerProxy_v5.0.2_beta_linux_amd64 -O /root/miner_proxy/minerProxy
+        wget https://github.com/Char1esOrz/minerProxy/releases/download/v5.0.2_beta/minerProxy_v5.0.2_beta_linux_amd64
         ;;
     2)
         wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v5.0.2/minerProxy_v5.0.2_beta_linux_amd64 -O /root/miner_proxy/minerProxy
@@ -84,7 +84,7 @@ update() {
     read -p "$(echo -e "请输入[1-3]：")" choose
     case $choose in
     1)
-        wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v5.0.2/minerProxy_v5.0.2_beta_linux_amd64 -O /root/miner_proxy/minerProxy
+        wget https://github.com/Char1esOrz/minerProxy/releases/download/v5.0.2_beta/minerProxy_v5.0.2_beta_linux_amd64
         ;;
     2)
         wget https://raw.githubusercontent.com/Char1esOrz/minerProxy/master/release/v5.1.1/minerProxy_v5.1.1_linux_amd64 -O /root/miner_proxy/minerProxy
